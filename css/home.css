@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Segoe UI Light";
+  src: url(".././font/segoeuil.ttf");
+}
+
+html {
+  min-height: 100% !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(../images//img21.jpg) no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-color: #636db2;
+  min-height: 100%;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container_language {
+  float: right;
+  padding: 15px;
+}
+
+.container_middle {
+  margin-top: 80px;
+  text-align: center;
+  margin-left: 2rem;
+  height: 560px;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #d6d9f0;
+}
+
+th {
+  border-bottom: 4px solid black !important;
+}
+
+.container_picture {
+  margin-top: 40px;
+}
+
+.container_show_post {
+  padding: 5px;
+}
+
+.bottom_pos {
+  text-align: center;
+  margin-top: 400px;
+  padding: 10px;
+}
+
+img {
+  -webkit-box-shadow: 0px 1px 22px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 1px 22px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 1px 22px 0px rgba(50, 50, 50, 0.75);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.middle_text {
+  text-align: center;
+  font-family: "Segoe UI Light";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.15em;
+  text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.text_para_home {
+  text-shadow: 0px 1px 18px rgba(150, 150, 150, 0.27);
+}
+
+.img_home_pos {
+  padding: 25px;
+  text-align: center;
+}
+
+span.header_pos {
+  margin-left: 35px;
+  font-family: "Segoe UI Light";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3.1em;
+  text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+  color: aliceblue;
+}
+
+.dropdownmenu_container {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Segoe UI Light";
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2.1em;
+  text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+}
+
+.logout_btn {
+  float: right;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+button.btn {
+  border-radius: 5px;
+  background-color: rgba(21, 208, 255, 0.8);
+}
+button.dropdown-toggle {
+  border-radius: 5px;
+  background-color: #7897fb !important;
+}
+ul.dropdown-menu {
+  background-color: #7897fb !important;
+}
+ul.dropdown-menu:hover {
+  color: rgb(63, 0, 0);
+}
